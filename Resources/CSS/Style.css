@@ -1,0 +1,132 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  font-family: helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.image-content {
+  height: 200px;
+  width: 300px;
+}
+
+
+/*  Header  */
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  padding: 0px 10px;
+  margin-top: 0px;
+  z-index: 2;
+  align-content: center;
+  background-color: black;
+}
+
+.header-img img {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 860px;
+  flex-grow: 1;
+  height: 50px;
+  display: inline-block;
+}
+
+a {
+  display: flex;
+  display: inline-block;
+  color: seashell;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+}
+
+
+/*  First Section  */
+.first-section {
+  margin: 69px auto;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#mission,
+#verbage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  z-index: 1;
+  width: 1200px;
+  height: 60px;
+  background-color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*  Second Section  */
+.tea-header {
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+}
+
+.tea-header h2 {
+  margin-bottom: 15px;
+}
+
+.tea-header h4 {
+  margin-top: 15px;
+}
+
+.image-content {
+  height: 200px;
+  width: 300px;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.tea-box {
+  align-content: center;
+  margin: 10px 15px;
+}
+
+/*  Third Section  */
+.third-section {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin-top: 50px;
+}
+
+.locations-header {
+  justify-content: center;
+}
+
+.locations-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.downtown {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+}
